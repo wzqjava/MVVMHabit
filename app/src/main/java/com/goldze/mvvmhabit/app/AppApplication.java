@@ -11,6 +11,7 @@ import me.goldze.mvvmhabit.utils.KLog;
 
 /**
  * Created by goldze on 2017/7/16.
+ * wzq
  */
 
 public class AppApplication extends BaseApplication {
