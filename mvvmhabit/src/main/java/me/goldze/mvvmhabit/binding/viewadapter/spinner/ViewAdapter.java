@@ -1,12 +1,12 @@
 package me.goldze.mvvmhabit.binding.viewadapter.spinner;
 
-import android.databinding.BindingAdapter;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.SpinnerAdapter;
+
+import androidx.databinding.BindingAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

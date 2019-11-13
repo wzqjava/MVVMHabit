@@ -1,7 +1,8 @@
 package me.goldze.mvvmhabit.binding.viewadapter.view;
 
-import android.databinding.BindingAdapter;
 import android.view.View;
+
+import androidx.databinding.BindingAdapter;
 
 import com.jakewharton.rxbinding2.view.RxView;
 

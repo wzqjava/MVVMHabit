@@ -3,8 +3,6 @@
 
     <data>
 
-        <import type="com.goldze.mvvmhabit.ui.network.NetWorkItemViewModel" />
-
         <variable
             name="viewModel"
             type="com.goldze.mvvmhabit.ui.network.NetWorkItemViewModel" />

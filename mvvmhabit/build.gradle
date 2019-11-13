@@ -20,10 +20,10 @@ android {
 
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
-    //support
-    api rootProject.ext.support["support-v4"]
-    api rootProject.ext.support["appcompat-v7"]
-    api rootProject.ext.support["recyclerview-v7"]
+    api 'junit:junit:4.12'
+    api rootProject.ext.dependencies["appcompat"]
+    api rootProject.ext.dependencies["appdesign"]
+
     //rxjava
     api rootProject.ext.dependencies.rxjava
     api rootProject.ext.dependencies.rxandroid
@@ -57,7 +57,7 @@ dependencies {
         exclude group: 'com.android.support'
     }
     //glide图片加载库
-    api (rootProject.ext.dependencies.glide){
+    api(rootProject.ext.dependencies.glide) {
         exclude group: 'com.android.support'
     }
     annotationProcessor rootProject.ext.dependencies["glide-compiler"]

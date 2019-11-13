@@ -1,10 +1,11 @@
 package com.goldze.mvvmhabit.ui.form;
 
 import android.app.Application;
-import android.databinding.ObservableBoolean;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.databinding.ObservableBoolean;
 
 import com.goldze.mvvmhabit.entity.FormEntity;
 import com.goldze.mvvmhabit.entity.SpinnerItemData;

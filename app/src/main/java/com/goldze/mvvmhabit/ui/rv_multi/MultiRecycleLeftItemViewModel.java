@@ -1,10 +1,10 @@
 package com.goldze.mvvmhabit.ui.rv_multi;
 
-import android.databinding.ObservableField;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
+import androidx.databinding.ObservableField;
 
 import me.goldze.mvvmhabit.base.MultiItemViewModel;
-
 import me.goldze.mvvmhabit.binding.command.BindingAction;
 import me.goldze.mvvmhabit.binding.command.BindingCommand;
 import me.goldze.mvvmhabit.utils.ToastUtils;

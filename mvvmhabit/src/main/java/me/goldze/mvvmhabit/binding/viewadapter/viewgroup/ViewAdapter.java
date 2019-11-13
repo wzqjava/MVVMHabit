@@ -1,15 +1,15 @@
 package me.goldze.mvvmhabit.binding.viewadapter.viewgroup;
 
-import android.databinding.BindingAdapter;
-import android.databinding.DataBindingUtil;
-import android.databinding.ObservableList;
-import android.databinding.ViewDataBinding;
+
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import me.tatarka.bindingcollectionadapter2.ItemBinding;
+import androidx.databinding.BindingAdapter;
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ObservableList;
+import androidx.databinding.ViewDataBinding;
 
-import static me.goldze.mvvmhabit.R.attr.itemView;
+import me.tatarka.bindingcollectionadapter2.ItemBinding;
 
 /**
  * Created by goldze on 2017/6/18.

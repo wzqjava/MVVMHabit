@@ -1,7 +1,7 @@
 package com.goldze.mvvmhabit.ui.vp_frg;
 
-import android.support.v4.app.Fragment;
 
+import androidx.fragment.app.Fragment;
 
 import com.goldze.mvvmhabit.ui.base.fragment.BasePagerFragment;
 import com.goldze.mvvmhabit.ui.tab_bar.fragment.TabBar1Fragment;

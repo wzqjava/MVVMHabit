@@ -1,10 +1,11 @@
 package me.goldze.mvvmhabit.binding.viewadapter.listview;
 
-import android.databinding.BindingAdapter;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import androidx.databinding.BindingAdapter;
 
 import java.util.concurrent.TimeUnit;
 

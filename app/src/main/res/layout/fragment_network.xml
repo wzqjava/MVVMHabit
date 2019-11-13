@@ -14,13 +14,10 @@
         <variable
             name="adapter"
             type="BindingRecyclerViewAdapter" />
-
-        <import type="me.tatarka.bindingcollectionadapter2.LayoutManagers" />
-
-        <import type="me.goldze.mvvmhabit.binding.viewadapter.recyclerview.LineManagers" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/tools"
         xmlns:binding="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -34,15 +31,14 @@
             binding:onRefreshCommand="@{viewModel.onRefreshCommand}"
             binding:tr_head_height="80dp"
             binding:tr_wave_height="80dp">
-
-            <android.support.v7.widget.RecyclerView
+            <!--     binding:adapter="@{adapter}"-->
+            <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 binding:adapter="@{adapter}"
                 binding:itemBinding="@{viewModel.itemBinding}"
                 binding:items="@{viewModel.observableList}"
-                binding:layoutManager="@{LayoutManagers.linear()}"
-                binding:lineManager="@{LineManagers.horizontal()}" />
+                binding:layoutManager="@{LayoutManagers.linear()}" />
 
         </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
 

@@ -1,14 +1,13 @@
 package me.goldze.mvvmhabit.binding.viewadapter.image;
 
 
-import android.databinding.BindingAdapter;
 import android.text.TextUtils;
 import android.widget.ImageView;
 
+import androidx.databinding.BindingAdapter;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-
-import me.goldze.mvvmhabit.R;
 
 /**
  * Created by goldze on 2017/6/18.
