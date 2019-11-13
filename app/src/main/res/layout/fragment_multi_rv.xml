@@ -15,6 +15,7 @@
             name="adapter"
             type="BindingRecyclerViewAdapter" />
 
+        <import type="me.goldze.mvvmhabit.binding.viewadapter.recyclerview.LayoutManagers" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -28,7 +29,8 @@
             android:layout_height="match_parent"
             binding:adapter="@{adapter}"
             binding:itemBinding="@{viewModel.itemBinding}"
-            binding:items="@{viewModel.observableList}"/>
+            binding:items="@{viewModel.observableList}"
+            binding:layoutManager="@{LayoutManagers.linear()}"/>
 
     </LinearLayout>
 </layout>

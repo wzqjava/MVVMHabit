@@ -14,6 +14,8 @@
         <variable
             name="adapter"
             type="BindingRecyclerViewAdapter" />
+
+        <import type="me.goldze.mvvmhabit.binding.viewadapter.recyclerview.LayoutManagers" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -31,7 +33,7 @@
             binding:onRefreshCommand="@{viewModel.onRefreshCommand}"
             binding:tr_head_height="80dp"
             binding:tr_wave_height="80dp">
-            <!--     binding:adapter="@{adapter}"-->
+
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
